@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: green;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid red;
+  margin: 4rem 0;
+  width: 650px;
+  margin: 5rem auto;
+  background: rgb(15, 207, 15);
+}
+
+.card-center {
+  border: 3px solid red;
+}
+
+.input {
+  height: 1.5rem;
+  width: 350px;
+  border: none;
+  border-radius: 25px;
+  margin: 1rem 0;
+}
+
+.add {
+  width: 25px;
+  background-color: green;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+}
+
+.remove {
+  width: 25px;
+  background-color: red;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+}
+
+.to-do {
+  background-color: white;
+  list-style: none;
+}
+
+.tItem {
+  display: inline-block;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.add:hover {
+  background: rgb(0, 48, 0);
+}
+
+.remove:hover {
+  background: rgb(0, 48, 0);
+}
+.hide {
+  display: none;
+}
